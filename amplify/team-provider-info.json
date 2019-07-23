@@ -1,0 +1,14 @@
+{
+    "akbhosting": {
+        "awscloudformation": {
+            "AuthRoleName": "akbrothers-akbhosting-20190723114108-authRole",
+            "UnauthRoleArn": "arn:aws:iam::595689982317:role/akbrothers-akbhosting-20190723114108-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::595689982317:role/akbrothers-akbhosting-20190723114108-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "akbrothers-akbhosting-20190723114108-deployment",
+            "UnauthRoleName": "akbrothers-akbhosting-20190723114108-unauthRole",
+            "StackName": "akbrothers-akbhosting-20190723114108",
+            "StackId": "arn:aws:cloudformation:us-east-2:595689982317:stack/akbrothers-akbhosting-20190723114108/ab306bb0-ad10-11e9-8192-0659c08a3f80"
+        }
+    }
+}

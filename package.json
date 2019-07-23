@@ -1,0 +1,19 @@
+{
+  "name": "akbrothers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "cd public && wget https://ak-brothers-ksd.webflow.io --recursive --page-requisites --html-extension --convert-links -xnH -e robots=off && firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeeshanofficial/akbrothers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeeshanofficial/akbrothers/issues"
+  },
+  "homepage": "https://github.com/zeeshanofficial/akbrothers#readme"
+}
