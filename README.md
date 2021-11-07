@@ -1,7 +1,8 @@
 ## Starting Instructions
 
-1. Checkout the `todo` tasks on the [project board](https://github.com/zeshhaan/akbrothers/projects) and take ownership of a task you would like to work and move that task into `In Progress`
-> Tasks aren't added as of now. We will add the list of tasks once we discuss on how to move forward on this project and then create tasks.
+1. Checkout the `todo` tasks on the [project board](https://github.com/zeshhaan/akbrothers/projects/2) and take ownership of a task you would like to work and move that task into `In Progress`
+
+   > Tasks aren't added as of now. We will add the list of tasks once we discuss on how to move forward on this project and then create tasks.
 
 2. Clone this repo locally.
 
