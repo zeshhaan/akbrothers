@@ -57,3 +57,8 @@
    where `feature/navbar` is your branch name.
 
 5. Go to the github repo. You will notice a message asking to make a Pull Request(PR). Make a PR and request someone for the review
+
+## Roadmap
+
+We plan to start simple and then use [11ty](https://www.11ty.dev/) as a [static site generator](https://gist.github.com/denji/7205625). You will find more info on using 11ty on the above linked documentation site. Also checkout this [free video course](https://egghead.io/courses/build-an-eleventy-11ty-site-from-scratch-bfd3) on the same.
+Finally we will be deploying our 11ty based site to [Cloudflare Pages](https://pages.cloudflare.com/)
