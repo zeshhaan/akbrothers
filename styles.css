@@ -37,7 +37,7 @@ body {
   font-weight: 500;
   letter-spacing: 2px;
 }
-.w-container {
+.hero-container {
   margin-left: auto;
   margin-right: auto;
   max-width: 940px;
@@ -54,8 +54,6 @@ body {
   background-color: #1d1f2d;
   color: #fff;
   font-weight: 300;
-}
-.w-button {
   display: inline-block;
   border: 0;
   line-height: inherit;
@@ -66,3 +64,32 @@ body {
   background-color: #fff;
   color: #000;
 }
+/* Media query for 767px */
+
+@media (max-width: 767px)
+{.hero-section {
+    height:440px;
+    padding-top: 0px;
+  }
+  .hero-content {
+    text-align: center;
+}
+}
+/* Media query for 479px */
+@media (max-width: 479px){
+.hero-section {
+    height: 89vh;
+    padding-top: 0px;
+    padding-right: 21px;
+    padding-left: 21px;
+}
+.hero-content {
+  text-align: center;
+}
+}
+@media screen and (max-width: 991px){
+.hero-container {
+    max-width: 728px;
+}
+}
+
