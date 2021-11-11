@@ -11,9 +11,9 @@ body {
   line-height: 20px;
   color: #333;
 }
-.body {
-  font-family: Montserrat, sans-serif;
-}
+
+/* Hero Section */
+
 .hero-section {
   position: relative;
   display: flex;
@@ -66,34 +66,26 @@ body {
   color: #000;
 }
 
-/*  */
+/* Welcome Section */
 
 .container {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   font-family: Montserrat, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 1.5;
   color: #333;
   width: 100%;
-  max-width: 80vw;
+  max-width: 70vw;
   margin-top: 85px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .main-heading {
-  align-items: center;
-  justify-content: center;
   margin-bottom: 50px;
   font-size: 1.5rem;
-}
-
-.h1 {
-  font-size: 2.3rem;
-  line-height: 2.75rem;
-  margin-top: 1.25rem;
 }
 
 .sub-heading {
@@ -159,7 +151,6 @@ body {
 }
 .container {
   align-items: center;
-  
   width: 90%;
 }
 .h-rule {
@@ -193,7 +184,7 @@ body {
 }
 
 .container {
-  max-width: 728px;
+  max-width: 80vw;
 }
 .main-heading {
   margin-bottom: 10px;
