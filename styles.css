@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 body {
+  display: block;
   margin: 0;
   min-height: 100%;
   background-color: #fff;
@@ -10,9 +11,9 @@ body {
   line-height: 20px;
   color: #333;
 }
-.body {
-  font-family: Montserrat, sans-serif;
-}
+
+/* Hero Section */
+
 .hero-section {
   position: relative;
   display: flex;
@@ -64,6 +65,67 @@ body {
   background-color: #fff;
   color: #000;
 }
+
+/* Welcome Section */
+
+.container {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
+  width: 100%;
+  max-width: 70vw;
+  margin-top: 85px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-heading {
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+}
+
+.sub-heading {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.h-rule {
+  height: 1px;
+  background-color: #eee;
+}
+
+.layout-grid {
+  display: grid;
+}
+
+.main-paragraph {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-areas: ". .";
+  grid-template-rows: auto;
+}
+
+.main-paragraph {
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: justify;
+    letter-spacing: 0px;
+    text-transform: none;
+}    
+
+.main-paragraph p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
 /* Media query for 767px */
 
 @media (max-width: 767px)
@@ -73,6 +135,27 @@ body {
   }
   .hero-content {
     text-align: center;
+}
+.main-heading {
+  text-align: center;
+}
+.sub-heading {
+  text-align: center;
+}
+.main-paragraph {
+  margin-bottom: 75px;
+  grid-row-gap: 30px;
+  grid-template-areas: "." ".";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+}
+.container {
+  align-items: center;
+  width: 90%;
+}
+.h-rule {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 }
 /* Media query for 479px */
@@ -86,10 +169,32 @@ body {
 .hero-content {
   text-align: center;
 }
+
+.main-heading {
+  text-align: center;
+  line-height: 1.5;
+}
+.layout-grid {
+  display: block;
+}
 }
 @media screen and (max-width: 991px){
 .hero-container {
     max-width: 728px;
 }
-}
 
+.container {
+  max-width: 80vw;
+}
+.main-heading {
+  margin-bottom: 10px;
+}
+.h-rule {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.main-paragraph p {
+  margin-bottom: 30px;
+}
+}
