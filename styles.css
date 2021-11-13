@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   min-height: 100%;
@@ -13,10 +14,13 @@ body {
 .body {
   font-family: Montserrat, sans-serif;
 }
+.overall-page {
+  padding-top: 95px;
+}
 .hero-section {
   position: relative;
   display: flex;
-  height: 89vh;
+  height: 25rem;
   padding-top: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -92,4 +96,111 @@ body {
     max-width: 728px;
 }
 }
+/* featured products */
+.featured-products {
+  padding-right: 17px;
+  padding-bottom: 89px;
+  padding-left: 15px;
+  position: absolute;
+  top: 30rem;
+  width: 100%;
+  
+}
+.section-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1008px;
+  content: " ";
+  display: table;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
 
+}
+.section-container .section-row{
+  margin-left: 9px;
+  margin-right: 48px;
+}
+.section-title {
+  margin-top: 0px;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  
+}
+.section-breaker {
+  display: block;
+  width: 20%;
+  height: 1px;
+  margin: 16px auto;
+  background-color: #dedede;
+  list-style-type: lower-alpha;
+}
+.section-heading {
+  text-align: center;
+}
+.product-list{
+  width: 100%;
+}
+.row-product{
+  display: flex;
+  flex-wrap: wrap;
+}
+.row-product img{
+  height: 10rem;
+  width: 13rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.product-name{
+  height: 21rem;
+  width: 19rem;
+  margin: 1rem;
+  padding: 1rem;
+  border: solid rgba(116, 114, 114, 0.308) 0.01rem;
+  border-radius: 1rem;
+}
+.product-name:hover{
+  box-shadow:rgb(0 0 0 / 9%) 0px 0px 0px 1px, rgb(0 0 0 / 9%) 0px 2px 23px 0px;
+}
+.product-name a{
+  text-decoration: none;
+  color: #000;
+}
+.product-detail{
+  margin-top: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  border-top:solid rgb(146, 144, 144) 0.01rem;
+}
+.view-detail{
+  background-color: RGB(29, 31, 44);
+  color: #999;
+  text-align: center;
+  margin-top: 1.2rem;
+  margin-left: 2rem;
+  width: 6rem;
+  height: 2rem;
+  padding-top: 0.5rem;
+}
+.right-sided{
+  margin-top: 0.5rem;
+  width: 55.6%;
+
+}
+.item-name {
+  font-size: 1rem;
+}
+.view-detail:hover {
+  color: #dedede;
+}
+.company-name{
+  margin-bottom: 0.2rem;
+  margin-top: 1rem;
+  font-weight: 550;
+}
