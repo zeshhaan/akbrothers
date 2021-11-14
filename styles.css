@@ -323,13 +323,7 @@ body {
   grid-column-end: span 1;
 }
 
-.main-footer-container:before, .main-footer-container:after {
-  content: " ";
-  display: table;
-  grid-column-start: 1;
-  grid-row-start: 1;
-  grid-column-end: 2;
-  grid-row-end: 2;
+
 
 .section-heading {
   text-align: center;
@@ -553,6 +547,11 @@ body {
 
 .client-logos-grid {
   grid-template-columns: repeat(1, 1fr);
+}
+
+.brands-image {
+  margin: -100px -100px;
+  padding-top: 1rem;
 }
 }
 
