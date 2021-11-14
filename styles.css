@@ -138,7 +138,6 @@ body {
   margin-bottom: 10px;
 }
 
-
 /* featured products */
 
 .featured-products {
@@ -148,8 +147,15 @@ body {
   top: 30rem;
   width: 100%;
 }
+.product-page-featured {
+  padding: 2rem 3rem 2rem 3rem;
+  width: 100%;
+}
+
 .product-list {
   width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .row-product {
@@ -239,7 +245,8 @@ body {
   margin-right: 48px;
 }
 
-.section-title, .client-logos-section-title {
+.section-title,
+.client-logos-section-title {
   margin-top: 0px;
   font-family: Montserrat, sans-serif;
   font-size: 20px;
@@ -247,7 +254,14 @@ body {
   font-weight: 300;
   letter-spacing: 2px;
 }
-
+.product-heading-section {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 400;
+  text-transform: none;
+}
 
 .title-divider,
 .section-breaker {
@@ -258,9 +272,9 @@ body {
   background-color: #dedede;
   list-style-type: lower-alpha;
 }
-  
+
 /* Client Logos Section */
-  
+
 .client-logos {
   padding-right: 15px;
   padding-bottom: 89px;
@@ -304,11 +318,10 @@ body {
 
 #kirloskar-logo,
 #ojus-power-logo,
-#jain-logo, 
+#jain-logo,
 #greaves-logo,
 #kisan-kraft-logo,
-#espa-logo
-{
+#espa-logo {
   -ms-grid-row-align: center;
   align-self: center;
   -ms-grid-column-align: center;
@@ -322,8 +335,6 @@ body {
   -ms-grid-column-span: 1;
   grid-column-end: span 1;
 }
-
-
 
 .section-heading {
   text-align: center;
@@ -474,7 +485,6 @@ body {
   color: rgba(204, 128, 128, 0.43);
 }
 
-
 /* Media query for 767px */
 
 @media (max-width: 767px) {
@@ -541,18 +551,18 @@ body {
     padding: 2rem 4rem;
   }
 
-.footer-heading-text {
-  width: 80%;
-}
+  .footer-heading-text {
+    width: 80%;
+  }
 
-.client-logos-grid {
-  grid-template-columns: repeat(1, 1fr);
-}
+  .client-logos-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.brands-image {
-  margin: -100px -100px;
-  padding-top: 1rem;
-}
+  .brands-image {
+    margin: -100px -100px;
+    padding-top: 1rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -576,7 +586,6 @@ body {
     flex-wrap: wrap;
   }
 }
-
 
 /* Utilities */
 
