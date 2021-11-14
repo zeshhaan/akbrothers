@@ -157,6 +157,8 @@ body {
 
 .product-list {
   width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .row-product {
