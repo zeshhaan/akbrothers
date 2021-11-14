@@ -148,10 +148,7 @@ body {
   width: 100%;
 }
 .product-page-featured {
-  padding-right: 17px;
-  padding-bottom: 32px;
-  padding-left: 15px;
-  top: 30rem;
+  padding: 2rem 3rem 2rem 3rem;
   width: 100%;
 }
 
