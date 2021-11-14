@@ -25,7 +25,7 @@ body {
 .hero-section {
   position: relative;
   display: flex;
-  height: 25rem;
+  height: 100vh;
   padding-top: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -154,6 +154,7 @@ body {
 .row-product {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .row-product img {
   height: 10rem;
