@@ -22,6 +22,7 @@ body {
 }
 
 /* Hero Section */
+.contact-hero,
 .hero-section {
   position: relative;
   display: flex;
@@ -43,6 +44,17 @@ body {
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
+.contact-hero {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("https://uploads-ssl.webflow.com/5d2e9319dd9e6ad17959c310/5d3ec8d29c45e526b428d276_samuel-zeller-1ebCdUwiarg-unsplash-low.jpg");
+  position: relative;
+  height: 354px;
+  padding-top: 125px;
+}
 .hero-heading {
   margin-bottom: 14px;
   color: #fff;
@@ -51,10 +63,28 @@ body {
   font-weight: 500;
   letter-spacing: 2px;
 }
+.contact-heading {
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin: 0.67em 0;
+}
 .hero-container {
   margin-left: auto;
   margin-right: auto;
   max-width: 940px;
+}
+.contact-container {
+  display: block;
+  width: 1100px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
 }
 .hero-subheading {
   margin-bottom: 30px;
@@ -338,6 +368,87 @@ body {
 
 .section-heading {
   text-align: center;
+}
+/* Section: Contact */
+#contact {
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 100px 70px 100px 50px;
+}
+
+#contact .contact-form {
+  padding: 25px;
+}
+.m-heading {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: block;
+}
+#contact .contact-form textarea {
+  height: 200px;
+  padding-top: 12px;
+  font-family: Montserrat, sans-serif;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+#contact .contact-form input {
+  padding: 12px 25px;
+  border-radius: 0px;
+  background-color: #1a1b1f;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#contact .contact-form {
+  padding: 45px 50px 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eee;
+  width: 70%;
+}
+.detail-wrap {
+  margin-bottom: 30px;
+}
+.label {
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.contact-email-link {
+  margin-bottom: 5px;
+  opacity: 0.6;
+  color: #333;
+}
+.paragraph-light {
+  margin-bottom: 10px;
+  opacity: 0.6;
+  line-height: 25px;
+  text-align: justify;
 }
 
 /* Sub-Footer */
