@@ -397,7 +397,7 @@ body {
 
 #contact .contact-form label {
   display: block;
-  margin: 15px 0px 5px 0px;
+  margin: 25px 0px 5px 0px;
   font-weight: bold;
   display: block;
   font-size: 14px;
@@ -425,11 +425,12 @@ body {
   margin-top: 5px;
   background-color: black !important;
   color: white !important;
+  cursor: pointer;
+  text-transform: uppercase !important;
 }
 .btn-dark:hover {
-  background-color: #32343a;
-  color: #fff;
-  text-transform: uppercase;
+  background-color: #32343a !important;
+  color: #fff !important;
 }
 
 #contact .contact-form {
@@ -717,6 +718,9 @@ body {
   }
   .paragraph-light {
     text-align: center;
+  }
+  #contact .contact-form label {
+    text-align: left;
   }
 }
 
