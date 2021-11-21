@@ -54,6 +54,9 @@ body {
   position: relative;
   height: 354px;
   padding-top: 125px;
+  background-position: 0px 0px, 100% 100%;
+  background-size: auto, contain;
+  text-align: center;
 }
 .hero-heading {
   margin-bottom: 14px;
@@ -412,15 +415,24 @@ body {
 }
 #contact .contact-form input {
   padding: 12px 25px;
+  border: solid 0.5px;
   border-radius: 0px;
-  background-color: #1a1b1f;
-  color: #fff;
+  background-color: white;
+  color: black;
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 2px;
   text-decoration: none;
-  text-transform: uppercase;
 }
+.btn-dark {
+  background-color: black !important;
+  color: white !important;
+}
+.btn-dark:hover {
+  background-color: #32343a !important;
+  color: #fff !important;
+}
+
 #contact .contact-form {
   padding: 45px 50px 50px;
   border-style: solid;
@@ -695,6 +707,11 @@ body {
   .footer-flex-items {
     gap: 0;
     flex-wrap: wrap;
+  }
+  #contact {
+    text-align: center;
+    margin: 0;
+    justify-content: center;
   }
 }
 
