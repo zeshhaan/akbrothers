@@ -386,6 +386,7 @@ body {
 }
 .m-heading {
   margin: 0.75rem;
+  margin-bottom: 40px;
   font-weight: 400;
   font-size: 32px;
   line-height: 36px;
@@ -397,10 +398,11 @@ body {
 
 #contact .contact-form label {
   display: block;
-  margin: 40px 0px 12px 0px;
-  font-weight: bold;
+  margin: 10px 0px 12px 0px;
+  font-weight: 500;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 20px;
 }
 #contact .contact-form textarea {
   height: 200px;
@@ -421,6 +423,7 @@ body {
 }
 #contact .contact-form input {
   padding: 12px 25px;
+  margin-bottom: 25px;
 }
 .btn-dark {
   width: 100%;
