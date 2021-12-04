@@ -722,6 +722,9 @@ body {
     gap: 0;
     flex-wrap: wrap;
   }
+  body .about-hero-subheading {
+    width: 70%;
+  }
 }
 /* Media query for 479px */
 @media (max-width: 479px) {
@@ -764,6 +767,15 @@ body {
   .brands-image {
     margin: -100px -100px;
     padding-top: 1rem;
+  }
+
+  body .about-hero-heading {
+    font-size: 40px;
+  }
+
+  body .about-hero-subheading {
+    font-size: 16px;
+    line-height: 1.5rem;
   }
 }
 
@@ -844,3 +856,43 @@ img {
   vertical-align: middle;
   display: inline-block;
 }
+
+/* About page */
+
+.about-hero-section {
+  position: relative;
+  display: flex;
+  height: 70vh;
+  padding-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-image: linear-gradient(135deg,rgba(30, 33, 33, 0.82) 1%,rgba(32, 32, 32, 0.14) 98%),
+    url("https://uploads-ssl.webflow.com/5d2e9319dd9e6ad17959c310/5d3ecabc9c45e5808628da51_images.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.about-hero-heading {
+  margin-bottom: 14px;
+  color: #fff;
+  font-size: 65px;
+  line-height: 51px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.about-hero-subheading {
+  margin-bottom: 30px;
+  color: hsla(0, 0%, 100%, 0.63);
+  font-size: 24px;
+  font-weight: 300;
+  width: 50%;
+  text-align: center;
+  line-height: 32px;
+}
+
