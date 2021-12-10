@@ -97,12 +97,8 @@ body {
   display: flex;
   height: 100vh;
   padding-top: 0px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
   flex-direction: column;
-  -webkit-box-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
   align-items: center;
   background-image: linear-gradient(
       135deg,
@@ -724,6 +720,7 @@ body {
   }
   body .about-hero-subheading {
     width: 70%;
+  }
 
   body .affiliates-container {
     max-width: 90vw;
@@ -938,14 +935,14 @@ img {
   display: flex;
   height: 70vh;
   padding-top: 0px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
   flex-direction: column;
-  -webkit-box-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
   align-items: center;
-  background-image: linear-gradient(135deg,rgba(30, 33, 33, 0.82) 1%,rgba(32, 32, 32, 0.14) 98%),
+  background-image: linear-gradient(
+      135deg,
+      rgba(30, 33, 33, 0.82) 1%,
+      rgba(32, 32, 32, 0.14) 98%
+    ),
     url("https://uploads-ssl.webflow.com/5d2e9319dd9e6ad17959c310/5d3ecabc9c45e5808628da51_images.jpg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
