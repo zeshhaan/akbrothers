@@ -1,0 +1,50 @@
+<h2>Starting Instructions</h2>
+<ol>
+<li>
+<p>Checkout the <code>todo</code> tasks on the <a href="https://github.com/zeshhaan/akbrothers/projects/2">project board</a> and take ownership of a task you would like to work and move that task into <code>In Progress</code></p>
+<blockquote>
+<p>Tasks aren't added as of now. We will add the list of tasks once we discuss on how to move forward on this project and then create tasks.</p>
+</blockquote>
+</li>
+<li>
+<p>Clone this repo locally.</p>
+<pre><code class="language-bash">git clone https://github.com/zeshhaan/akbrothers.git
+</code></pre>
+</li>
+<li>
+<p>Create a local branch, give it clear and semantic name related to the task you are working on. For example, if you took the task of navbar, give it a name <code>feature/navbar</code>.</p>
+<pre><code class="language-bash"> git checkout -b &quot;feature/navbar&quot;
+</code></pre>
+<p>This lets you to &quot;checkout&quot; to a new branch from the current master (or main) branch</p>
+</li>
+<li>
+<p>After you make the changes, run the following command</p>
+<pre><code class="language-bash"> git status
+</code></pre>
+<p>this will return a list of folder/files you will need to push to github
+Say, for example, you added or modified <code>index.html</code> and <code>styles.css</code></p>
+<p>Then you need to add them to the list of files/folders that are required to push into github like this</p>
+<pre><code class="language-bash"> git add index.html styles.css
+</code></pre>
+<p>After that, you need to add a commit message mentioning the changes you made. It should be readable, assertive and should describe the exact problem you were trying to solve.</p>
+<pre><code class="language-bash"> git commit -m &quot;Fix typo in introduction to user guide&quot;
+</code></pre>
+<p>There are plethora of articles in the internet about writing a good commit message. Feel free to check them out. <a href="https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/">Here is one for your reference</a></p>
+<p>Then finally, you would are ready to push the changes</p>
+<pre><code class="language-bash"> git push
+</code></pre>
+<blockquote>
+<p>This will NOT work if you are pushing this branch for the first time. You will get a message saying that you need to set it up as an upstream. Copy that command in the message and run it again.
+The command will look almost like this</p>
+</blockquote>
+<pre><code class="language-bash"> git push --set-upstream origin feature/navbar
+</code></pre>
+<p>where <code>feature/navbar</code> is your branch name.</p>
+</li>
+<li>
+<p>Go to the github repo. You will notice a message asking to make a Pull Request(PR). Make a PR and request someone for the review</p>
+</li>
+</ol>
+<h2>Roadmap</h2>
+<p>We plan to start simple and then use <a href="https://www.11ty.dev/">11ty</a> as a <a href="https://gist.github.com/denji/7205625">static site generator</a>. You will find more info on using 11ty on the above linked documentation site. Also checkout this <a href="https://egghead.io/courses/build-an-eleventy-11ty-site-from-scratch-bfd3">free video course</a> on the same.
+Finally we will be deploying our 11ty based site to <a href="https://pages.cloudflare.com/">Cloudflare Pages</a></p>
