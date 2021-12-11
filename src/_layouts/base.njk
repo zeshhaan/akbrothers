@@ -8,6 +8,13 @@
         <title>{{ title }}</title>
     </head>
     <body>
-    {{ content | safe }}
+    <!-- Navbar -->
+    {% include "header.njk" %}
+
+    {{ content | safe  }}
+    
+    <!-- Footer Section -->
+    {% include "footer.njk" %}
+
     </body>
 </html>
