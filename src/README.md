@@ -65,14 +65,24 @@ Finally we will be deploying our 11ty based site to [Cloudflare Pages](https://p
 
 ## Using 11ty
 
-Install 11ty globally on your machine by running this command
+Install 11ty globally on your machine
 
 ```bash
  npm install -g @11ty/eleventy
 ```
 
-and after that, run the project
+Install all the packages
 
 ```bash
- eleventy --serve
+ npm install
 ```
+
+Run the server locally.
+
+```bash
+ npm start
+```
+
+Navigate to http://localhost:8080 on your browser to checkout the website in action.
+
+Let me know if you face any issues
