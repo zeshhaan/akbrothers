@@ -1,0 +1,20 @@
+{
+    "items": [
+        {
+            "url":"/affiliates/",
+            "title":"Affiliates"
+        },
+        {
+            "url":"/products/",
+            "title":"Products"
+        },
+        {
+            "url":"/about/",
+            "title":"About"
+        },
+        {
+            "url":"/contact/",
+            "title":"Contact"
+        }
+    ]
+}
