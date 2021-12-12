@@ -62,3 +62,27 @@
 
 We plan to start simple and then use [11ty](https://www.11ty.dev/) as a [static site generator](https://gist.github.com/denji/7205625). You will find more info on using 11ty on the above linked documentation site. Also checkout this [free video course](https://egghead.io/courses/build-an-eleventy-11ty-site-from-scratch-bfd3) on the same.
 Finally we will be deploying our 11ty based site to [Cloudflare Pages](https://pages.cloudflare.com/)
+
+## Using 11ty
+
+Install 11ty globally on your machine
+
+```bash
+ npm install -g @11ty/eleventy
+```
+
+Install all the packages
+
+```bash
+ npm install
+```
+
+Run the server locally.
+
+```bash
+ npm start
+```
+
+Navigate to http://localhost:8080 on your browser to checkout the website in action.
+
+Let me know if you face any issues

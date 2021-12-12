@@ -1,0 +1,29 @@
+<header class="navbar">
+  <div class="nav-flex">
+    <div class="nav-image">
+      <a href="/">
+        <img
+          src="https://uploads-ssl.webflow.com/5d2e9319dd9e6ad17959c310/5d301297be811839b62a8a13_Asset%2027logo.1.svg"
+          alt="nav-image"
+/>
+      </a>
+    </div>
+    <div class="navigation">
+      <nav role="navigation" class="navigation-link">
+        {% for item in nav.items %}
+          <a class="nav-link" href="{{ item.url }}" 
+        {% if item.url === page.url %}
+          aria-current="page" data-state="active"
+        {% endif %} > {{ item.title }}</a>
+        {% endfor %}
+      </nav>
+      <div class="nav-menu">
+        <a href="#" class="menu-button">
+          <div class="nav-menu-icon"></div>
+          <div class="nav-menu-icon"></div>
+          <div class="nav-menu-icon"></div>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>

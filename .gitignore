@@ -1,1 +1,9 @@
 .DS_Store.DS_Store
+.idea
+.fleet
+
+# dependencies installed by npm
+node_modules
+
+# build artefacts
+public
